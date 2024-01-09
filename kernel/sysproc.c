@@ -89,3 +89,11 @@ sys_uptime(void)
   release(&tickslock);
   return xticks;
 }
+
+// leet() function
+// just returns 1337
+uint64
+sys_leet(void) 
+{
+  return 1337;
+}
