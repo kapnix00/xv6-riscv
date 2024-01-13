@@ -133,6 +133,7 @@ UPROGS=\
 	$U/_wc\
 	$U/_zombie\
 	$U/_leet\
+	$U/_randnum\
 
 fs.img: mkfs/mkfs README $(UPROGS)
 	mkfs/mkfs fs.img README $(UPROGS)
